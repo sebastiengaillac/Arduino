@@ -1,13 +1,4 @@
-    //*************************************************************
-    //  demo_boussole
-    // D'après ARD_HMC5803L_GY273_Example
-    // Source :  HobbyComponents.com
-    //
-    // Boussole numérique avec le module GY-273
-    // Compas digital Honeywell HMC5883L
-    // Interface I2C interface --> Arduino
-    // Modifié tiptopboards.com 23 10 2014 - Rolland
-    //*************************************************************
+
     #include <Wire.h>   //Librairie Wire pour la communication I2C
     #define HMC5803L_Address 0x1E  //Adresse I2C du module  
 
